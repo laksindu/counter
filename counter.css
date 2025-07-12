@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 41, 41);
+}
+
+#maincount{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid;
+    padding: 100px;
+    border-radius: 25px;
+    background-color: rgb(161, 202, 202);
+
+
+}
+
+#maincount button {
+    margin: 0 5px; /* This will select all the buttons inside the tag margin and make the margin 5px */
+}
+
+.allBtn{
+    border-radius: 5px;
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold; /* This will make the font bold */
+    background-color: rgb(9, 64, 64);
+    color: rgb(16, 225, 225);
+    
+
+    
+}
+
+#countLabel{
+    font-size: 15vh;
+    font-family: fantasy;
+}
+
+.allBtn:hover{
+
+    cursor: pointer;
+    background-color:  rgb(16, 225, 225);
+    color:  rgb(9, 64, 64);
+
+}
+
+.allBtn:active{
+
+    transform: translateY(3px);   /* move button down */
+    color: rgb(10, 199, 152);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
